@@ -1,0 +1,86 @@
+.containerNav{
+    height: 7%;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 0;
+    justify-content: center;
+
+    background-color: #22133F;
+}
+.logo{
+    width: 50%;
+    background-image: url("../images/pokeball-16809.png");
+    background-position: 100%;
+    background-size: 6%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.search{
+    margin-right: 30px;
+    font-size: larger;
+    cursor: pointer;
+    text-decoration:  none;
+    margin-left: 10px;
+}
+a{
+    color: white;
+}
+h1{
+    color: white;
+}
+.TittleDiv{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+
+}
+.NavDiv{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.Input{
+    height: 100%;
+
+}
+.burguerButton{
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+ul{
+    position: absolute;
+    float: left;
+}
+li{
+    display: flex;
+    align-items: center;
+    list-style-type: none;    
+}
+a{
+    margin-right: 30px;
+    font-size: larger;
+    cursor: pointer;
+    text-decoration:  none;
+}
+
+.burguer{
+    position: absolute;
+    float: left;
+    display: none;
+    align-items: center;
+    margin-top: 0;
+}
+a:hover{
+    color: rgba(255, 133, 133, 0.904);
+    transition: 0.5s;
+}
+
+

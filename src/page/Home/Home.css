@@ -1,0 +1,78 @@
+
+.container{
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    scroll-behavior: smooth     ;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #001220;
+    /* background: repeating-linear-gradient( 45deg, #9191918a, #9191916b 8px, #ffffff 8px, #ffffff 40px );     */
+    /* overflow-x: hidden; */
+}
+.main{
+    width: 100%;
+    padding: 60px;
+    margin-top: 3%;
+   
+    background-color: #001220;
+}
+.pokedex{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.searchArea{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2%;
+}
+.searchArea h1{
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+.input input{
+    width: 30%;
+    height: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    min-width: 250px;
+}
+.error{
+    position: absolute;
+    top: 400px
+}
+
+::-webkit-scrollbar{
+    /* color: red; */
+    width: 10px;
+
+    
+}
+::-webkit-scrollbar-thumb{
+    background-color: #a7233977;
+    border-radius: 10px;
+
+}
+::-webkit-scrollbar-track{
+    background-color: #001220;
+}
+::-webkit-scrollbar-track-piece{
+    color: red;
+}

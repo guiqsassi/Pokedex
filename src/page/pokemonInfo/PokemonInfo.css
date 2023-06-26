@@ -1,0 +1,234 @@
+.Background{
+    width: 100%;
+    min-width: auto;
+    height: 100vh;
+    min-height: 600px;
+    display: flex;
+    flex-direction: row;
+    /* background: repeating-linear-gradient( 45deg, #9191918a, #9191916b 8px, #ffffff 8px, #ffffff 40px );   */
+    background-color: #001220;
+    background-image: url("../../images/pokeball.png") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-blend-mode: soft-light ;
+    justify-content: center;
+    align-items: center;
+}
+.Container{
+    width: 80%;
+    border-radius: 100px;
+    height: 90%;
+    display: flex;
+    
+    /* background-color: rgb(238, 238, 238); */
+    flex-direction: row;
+    align-items: center;
+}
+.left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.imgPokemon{
+    image-rendering: pixelated;
+    background-image: url("../../images/background.jpg");
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 35%;
+}
+.left h1{
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.left h1::first-letter{
+    text-transform: capitalize;
+}
+.TypeContainerInfo{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.typeSelector{
+    font-family: sans-serif;
+    color: rgb(248, 248, 248);
+    
+    width: 30%;
+    height: 30%;
+    display: flex;
+    margin-left: 5px;
+    justify-content: center;
+    margin-right: 5px;
+    font-size: x-large;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+}
+.typeSelector::first-letter{
+    text-transform: capitalize;
+}
+.right{
+    background-image: url("../../images/pokeball.png") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-blend-mode: soft-light ;
+    width: 45%;
+    height: 90%;
+    border-radius: 20%;
+    /* justify-content: center; */
+    display: flex;
+    background-color: #5bc8ff;
+    align-items: center;
+    flex-direction: column;
+}
+.status{
+ display: flex;
+ flex-direction: column;
+ margin-top: 10%;
+ padding: 30px;
+ width: 60%;
+
+ /* background-color:  #3786e0 ; */
+ height: 35%;
+ /* -webkit-box-shadow: 10px 7px 29px -13px rgba(0,0,0,0.94);
+-moz-box-shadow: 10px 7px 29px -13px rgba(0,0,0,0.94);
+box-shadow: 10px 7px 29px -13px rgba(0,0,0,0.94); */
+ 
+}
+.status h1{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    font-size: large;
+
+    text-align: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+li p{
+    margin-left: 10px;
+    color: rgb(241, 238, 238);
+    font-size:small ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.status h3{
+    width: 50%;
+    color: rgb(255, 255, 255);
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* margin-bottom: 2px; */
+    
+}
+.Bar{
+    margin-left: 10px;
+    display: flex;
+    width: 100%;
+    height: 13px;
+    /* border: 2px solid rgb(24, 24, 24); */
+    background-color: rgb(78, 62, 62);
+    border-radius: 10px;
+    /* border: 1px soliid black; */
+    
+
+}
+.status li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+hr{
+    width: 100%;
+    margin-top: 1px;
+    margin-bottom: 0;
+    border: 1px solid rgba(255, 255, 255, 0.205);  
+    border-radius: 20px;
+      
+}
+.Bar span{
+    height: 13px;
+    float: left;
+    background: rgb(37,114,124);
+background: linear-gradient(65deg,#1a88db 0%,rgb(55, 232, 255)  80%);
+    width: 100%;
+    border-radius: 10px;
+    animation-name: Bar;
+    animation-timing-function: ease-in;
+    animation-duration: 1.2s;
+    animation-iteration-count:initial;
+
+}
+@keyframes Bar {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+.informations{
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 100%;
+    height: 22%;
+    /* background-color:  #474747 ;
+    -webkit-box-shadow: 10px 7px 29px -13px rgba(0,0,0,0.94);
+-moz-box-shadow: 10px 7px 29px -13px rgba(0,0,0,0.94);
+box-shadow: 10px 7px 29px -13px rgba(0,0,0,0.94); */
+        
+}
+.infoFlexDirection{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.informations h1{
+    width: 100%;
+    text-align: center;
+    margin-right: 10%;
+}
+.informations h2{
+    margin-left: 5%;
+}
+.informations h3{
+    margin-left: 2%;
+}
+.infoLeft{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.infoRight{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.informations h1, h2, h3{
+    color: white;
+
+
+    
+}
+.informations hr{
+    border-right: 1px solid white;
+    
+}
